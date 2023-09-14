@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="9" failures="0" name="com.bdd.cucumberjunit.CucumberJUnitRunner" time="0.733" errors="9" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.4.1+1"/>
+    <property name="sun.boot.library.path" value="C:\java\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\my-java-projects\bdd-selinium\admin-portal"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\my-java-projects\bdd-selinium\admin-portal"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\Ram Java WS\Moring_930\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2904223136601449187.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\java\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/java/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin/server;C:/java/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\go\go\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\RedHat\Podman\;C:\Users\user\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python311\;C:\Users\user\AppData\Local\Programs\Python\Launcher\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\java\zulu8.64.0.19-ca-jdk8.0.345-win_x64\bin;C:\java\gradle-7.5.1\bin;C:\java\zulu8.64.0.19-ca-jdk8.0.345-win_x64\jre\bin;C:\nodejs\node-v16.17.1-win-x64;C:\Users\user\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;;C:\java\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="user"/>
+    <property name="java.class.path" value="C:\java\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.601.20220820-1147\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="C:\java\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="E:\my-java-projects\bdd-selinium\admin-portal\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Add Course module" name="Display the Courses List" time="0.392">
+    <error message="The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;then admin views the dashboard with {string} message&quot;)
+public void thenAdminViewsTheDashboardWithMessage(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;admin clicks on courses list option&quot;)
+public void adminClicksOnCoursesListOption() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;browser navigates to courses list page&quot;)
+public void browserNavigatesToCoursesListPage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;admin clicks on the add course button&quot;)
+public void adminClicksOnTheAddCourseButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;browser naviagtes to add course page&quot;)
+public void browserNaviagtesToAddCoursePage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;following course details&quot;)
+public void followingCourseDetails(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
+    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;then admin views the dashboard with {string} message&quot;)
+public void thenAdminViewsTheDashboardWithMessage(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;admin clicks on courses list option&quot;)
+public void adminClicksOnCoursesListOption() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;browser navigates to courses list page&quot;)
+public void browserNavigatesToCoursesListPage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;admin clicks on the add course button&quot;)
+public void adminClicksOnTheAddCourseButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;browser naviagtes to add course page&quot;)
+public void browserNaviagtesToAddCoursePage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;following course details&quot;)
+public void followingCourseDetails(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
+    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@tag @tag1
+Scenario: Display the Courses List                                                                          &amp;#27;[90m# src/test/resources/features/addcourse.feature:11&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33madmin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36menters the username &quot;admin@admin.com&quot; and password &quot;123456&quot;&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mclick on the login button&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthen admin views the dashboard with &quot;Welcome Admin&quot; message&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36madmin clicks on courses list option&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mbrowser navigates to courses list page&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36madmin clicks on the add course button&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mbrowser naviagtes to add course page&amp;#27;[0m
+  &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mfollowing course details&amp;#27;[0m
+    | Category    | Java                |
+    | Course Name | Core Java           |
+    | Course URL  | www.oracle.com/java |
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36madmin close the browser&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Calculator" name="Simple add operation" time="0.014">
+    <error message="The step &apos;have given a number 2&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;have given a number {int}&quot;)
+public void haveGivenANumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I permform add operation&quot;)
+public void iPermformAddOperation() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I got the result {int}&quot;)
+public void iGotTheResult(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;have given a number 2&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;have given a number {int}&quot;)
+public void haveGivenANumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I permform add operation&quot;)
+public void iPermformAddOperation() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I got the result {int}&quot;)
+public void iGotTheResult(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@app @test1
+Scenario: Simple add operation  &amp;#27;[90m# src/test/resources/features/app.feature:6&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mhave given a number 2&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mhave given a number 3&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI permform add operation&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI got the result 5&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Calculator" name="Simple add operation with multiple values #1" time="0.08">
+    <error message="The step &apos;have given a number 1&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;have given a number {int}&quot;)
+public void haveGivenANumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I permform add operation&quot;)
+public void iPermformAddOperation() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I got the result {int}&quot;)
+public void iGotTheResult(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;have given a number 1&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;have given a number {int}&quot;)
+public void haveGivenANumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I permform add operation&quot;)
+public void iPermformAddOperation() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I got the result {int}&quot;)
+public void iGotTheResult(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@app @test2
+Scenario Outline: Simple add operation with multiple values &amp;#27;[90m# src/test/resources/features/app.feature:21&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mhave given a number 1&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mhave given a number 5&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI permform add operation&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI got the result 6&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Calculator" name="Simple add operation with multiple values #2" time="0.027">
+    <error message="The step &apos;have given a number 2&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;have given a number {int}&quot;)
+public void haveGivenANumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I permform add operation&quot;)
+public void iPermformAddOperation() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I got the result {int}&quot;)
+public void iGotTheResult(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;have given a number 2&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;have given a number {int}&quot;)
+public void haveGivenANumber(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I permform add operation&quot;)
+public void iPermformAddOperation() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I got the result {int}&quot;)
+public void iGotTheResult(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@app @test2
+Scenario Outline: Simple add operation with multiple values &amp;#27;[90m# src/test/resources/features/app.feature:22&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mhave given a number 2&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mhave given a number 7&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI permform add operation&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI got the result 9&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Admin portal Login" name="Loggedin with valid credentials #1" time="0.038">
+    <error message="The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;then admin views the dashboard with {string} message&quot;)
+public void thenAdminViewsTheDashboardWithMessage(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;then admin views the dashboard with {string} message&quot;)
+public void thenAdminViewsTheDashboardWithMessage(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@tag @tag1
+Scenario: Loggedin with valid credentials                                                                   &amp;#27;[90m# src/test/resources/features/login.feature:5&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33madmin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36menters the username &quot;admin@admin.com&quot; and password &quot;123456&quot;&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mclick on the login button&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthen admin views the dashboard with &quot;Welcome Admin&quot; message&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36madmin close the browser&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Admin portal Login" name="Loggedin with valid credentials #2" time="0.067">
+    <error message="The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin view the error message as {string}&quot;)
+public void adminViewTheErrorMessageAs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin view the error message as {string}&quot;)
+public void adminViewTheErrorMessageAs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@tag
+Scenario Outline: Loggedin with valid credentials                                                           &amp;#27;[90m# src/test/resources/features/login.feature:21&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33madmin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36menters the username &quot;admin@123&quot; and password &quot;admin&quot;&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mclick on the login button&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36madmin view the error message as &quot;Please login with valid credentials&quot;&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36madmin close the browser&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Admin portal Login" name="Loggedin with valid credentials #3" time="0.039">
+    <error message="The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin view the error message as {string}&quot;)
+public void adminViewTheErrorMessageAs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin view the error message as {string}&quot;)
+public void adminViewTheErrorMessageAs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@tag
+Scenario Outline: Loggedin with valid credentials                                                           &amp;#27;[90m# src/test/resources/features/login.feature:22&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33madmin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36menters the username &quot;mohan@chin&quot; and password &quot;mohan&quot;&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mclick on the login button&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36madmin view the error message as &quot;Please login with valid credentials&quot;&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36madmin close the browser&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Admin portal Login" name="Loggedin with valid credentials #4" time="0.022">
+    <error message="The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin view the error message as {string}&quot;)
+public void adminViewTheErrorMessageAs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin view the error message as {string}&quot;)
+public void adminViewTheErrorMessageAs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@tag
+Scenario Outline: Loggedin with valid credentials                                                           &amp;#27;[90m# src/test/resources/features/login.feature:23&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33madmin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36menters the username &quot;sudha@mail.com&quot; and password &quot;sudha&quot;&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mclick on the login button&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36madmin view the error message as &quot;Please login with valid credentials&quot;&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36madmin close the browser&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Admin portal Login" name="Loggedin with valid credentials #5" time="0.054">
+    <error message="The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin view the error message as {string}&quot;)
+public void adminViewTheErrorMessageAs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;admin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;admin opens the {string} in the {string} browser&quot;)
+public void adminOpensTheInTheBrowser(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;enters the username {string} and password {string}&quot;)
+public void entersTheUsernameAndPassword(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;click on the login button&quot;)
+public void clickOnTheLoginButton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin view the error message as {string}&quot;)
+public void adminViewTheErrorMessageAs(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;admin close the browser&quot;)
+public void adminCloseTheBrowser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+@tag
+Scenario Outline: Loggedin with valid credentials                                                           &amp;#27;[90m# src/test/resources/features/login.feature:24&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33madmin opens the &quot;http://integratedtoolingsystems.in/1swishzz_staging/admin&quot; in the &quot;chrome&quot; browser&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36menters the username &quot;123456@12.3&quot; and password &quot;admin.com&quot;&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mclick on the login button&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36madmin view the error message as &quot;Please login with valid credentials&quot;&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36madmin close the browser&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>
